@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get install -y
 sudo apt-get install -y aptitude vim git gitk mc neovim fish terminator \
     gnome-tweaks build-essential \
-    barrier \
+    barrier fish
 
 # Libjpeg support, for Pillow mainly
 sudo apt-get install -y libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
@@ -24,4 +24,4 @@ pip3 install pipenv
 ./installers/fonts.sh
 ./installers/pyenv.sh
 ./installers/node.sh
-./installers/fish.sh
+./installers/fish-addons.sh

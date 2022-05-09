@@ -1,6 +1,4 @@
-#!/bin/bash
-
-sudo aptitude install fish
+#!/bin/fish
 
 # omf
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
@@ -8,7 +6,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 # plugins
 omf update
 
-Bomf install https://github.com/fabioantunes/fish-nvm
+omf install https://github.com/fabioantunes/fish-nvm
 omf install https://github.com/edc/bass
 
 omf install pyenv
