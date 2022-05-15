@@ -12,8 +12,8 @@
 # [package]
 # disabled = true
 
-# [aws]
-# disabled = true
+[aws]
+disabled = true
 
 [status]
 disabled = false
