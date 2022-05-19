@@ -35,11 +35,16 @@ sudo service docker restart
 
 
 # https://docs.docker.com/compose/install/
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
-sudo chmod +x /usr/bin/docker-compose
+
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -o /usr/bin/docker-compose
 
 # https://docs.docker.com/compose/completion/
-sudo curl -L https://raw.githubusercontent.com/docker/compose/1.24.1/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
+# curl \
+#     -L https://raw.githubusercontent.com/brgmnn/fish-docker-compose/master/completions/docker-compose.fish \
+#     -o ~/.config/fish/completions/
+
+mkdir -p ~/.config/fish/completions
+wget https://raw.githubusercontent.com/brgmnn/fish-docker-compose/master/completions/docker-compose.fish -P ~/.config/fish/completions/
 
 # https://docs.docker.com/install/linux/linux-postinstall/
 # sudo groupadd docker
