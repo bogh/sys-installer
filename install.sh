@@ -18,10 +18,10 @@ sudo apt-get install -y python3-pip python3-dev
 
 pip3 install pipenv
 
-./install/code.sh
+./installers/code.sh
 ./installers/docker.sh
 ./installers/flatpak.sh
 ./installers/fonts.sh
 ./installers/pyenv.sh
 ./installers/node.sh
-./installers/fish-addons.sh
+# ./installers/fish-addons.sh
