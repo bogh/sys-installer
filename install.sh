@@ -27,4 +27,4 @@ pip3 install pipenv
 ./installers/fonts.sh
 ./installers/pyenv.sh
 ./installers/node.sh
-./installers/fish-addons.sh
+# ./installers/fish-addons.sh
