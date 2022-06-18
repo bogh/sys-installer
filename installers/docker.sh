@@ -37,6 +37,7 @@ sudo service docker restart
 # https://docs.docker.com/compose/install/
 
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -o /usr/bin/docker-compose
+sudo chmod a+x /usr/bin/docker-compose
 
 # https://docs.docker.com/compose/completion/
 # curl \
