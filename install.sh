@@ -4,7 +4,7 @@ set -ex
 
 sudo apt-get update
 sudo apt-get install -y
-sudo apt-get install -y aptitude vim git gitk mc neovim fish terminator \
+sudo apt-get install -y aptitude vim git gitk mc fish terminator \
     gnome-tweaks build-essential \
     barrier fish \
     python3-venv
