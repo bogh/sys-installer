@@ -11,7 +11,7 @@ sudo apt-get install -y aptitude vim git gitk mc fish terminator \
 
 # Libjpeg support, for Pillow mainly
 sudo apt-get install -y libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
-sudo apt-get install -y libxml2-dev libxslt1-dev libexif-dev exiftool libmagickwand-dev python3-exif
+sudo apt-get install -y libxml2-dev libxslt1-dev libexif-dev exiftool libmagickwand-dev python3-exif libsqlite3-dev
 # db dev libs
 sudo apt-get install -y postgresql-server-dev-all libmysqlclient-dev
 
