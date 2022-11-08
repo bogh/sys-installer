@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -sS https://starship.rs/install.sh | sh
+yay -S starship
 
 mkdir -p $HOME/.config/fish
 printf "\n\nstarship init fish | source" >> $HOME/.config/fish/config.fish
