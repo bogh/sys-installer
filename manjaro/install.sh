@@ -12,5 +12,5 @@ sudo pacman -Sy --needed --noconfirm \
 # ./scripts/kde.sh
 # ./scripts/node.sh
 # ./scripts/pyenv.sh
-# ./scripts/fish-addons.sh
-# ./scripts/flatpak.sh
+./scripts/flatpak.sh
+./scripts/fish-addons.sh
