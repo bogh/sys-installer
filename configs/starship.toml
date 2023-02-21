@@ -17,3 +17,16 @@ disabled = true
 
 [status]
 disabled = false
+
+[git_status]
+conflicted = '🏳'
+up_to_date = '✓'
+untracked = '🤷'
+stashed = '📦'
+modified = '📝'
+staged = '[++\($count\)](green)'
+renamed = '👅'
+deleted = '🗑'
+ahead = '⇡${count}'
+diverged = '😵⇕⇡${ahead_count}⇣${behind_count}'
+behind = '😰⇣${count}'
