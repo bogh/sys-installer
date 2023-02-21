@@ -15,7 +15,19 @@
 [aws]
 disabled = true
 
+# [time]
+# disabled = false
+# format = '🕙[\[ $time \]]($style) '
+# time_format = '%T'
+# utc_time_offset = '-5'
+# time_range = '10:00:00-14:00:00'
+
 [status]
+style = 'bg:blue'
+symbol = '🔴 '
+success_symbol = '🟢 SUCCESS'
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
 disabled = false
 
 [git_status]
@@ -30,3 +42,14 @@ deleted = '🗑'
 ahead = '⇡${count}'
 diverged = '😵⇕⇡${ahead_count}⇣${behind_count}'
 behind = '😰⇣${count}'
+
+[python]
+# Display the version of python from inside a local venv.
+#
+# Note this will only work when the venv is inside the project and it will only
+# work in the directory that contains the venv dir but maybe this is ok?
+python_binary = ['./venv/bin/python', 'python', 'python3', 'python2']
+
+
+[nodejs]
+format = '[🤖 $version](bold green) '
