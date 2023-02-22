@@ -1,7 +1,7 @@
 #!/bin/fish
 
 yay -Sy lsd exa bat rm-improved xcp
-yay -Sy dust ripgrep fd bottom
+yay -Sy dust ripgrep fd bottom grex procs
 yay -Sy topgrade broot tokei
 
 # omf
