@@ -10,4 +10,6 @@ makepkg -si
 
 yay -Sy --noconfirm \
     visual-studio-code-bin google-chrome \
-    1password
+    1password \
+    1password-cli \
+    community/glab \
