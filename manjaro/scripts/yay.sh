@@ -13,3 +13,4 @@ yay -Sy --noconfirm \
     1password \
     1password-cli \
     community/glab \
+    go-task-bin \
