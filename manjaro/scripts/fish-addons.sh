@@ -17,7 +17,7 @@ omf install pyenv
 omf install z
 
 mkdir -p $HOME/.config/fish
-CONFIG_FILE=$HOME/.config/fish/config.fish
+set CONFIG_FILE $HOME/.config/fish/config.fish
 
 # printf "\n\nzoxide init fish | source" >> $CONFIG_FILE
 # printf "\n\nalias cd='z'" >> $CONFIG_FILE
